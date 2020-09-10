@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  Padding: 0;
+}
+
+body{
+  line-height: 1.4;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #d3016a, #040e22);
+}
+
+.container {
+  padding: 0 1rem;
+  max-width: 1000px;
+  height: 100vh;
+}
+
+.btn {
+  display: inline-block;  
+  border:none;
+  background-color: #0d1e3d;
+  color: #d3016a;
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 100px;
+  margin-left: 5px;
+  outline: none;
+}
+
+.btn:hover{
+  background: #d3016a;
+  color: #0d1e3d;
+}
+
+
+@media (max-width: 812px) {
+
+}
